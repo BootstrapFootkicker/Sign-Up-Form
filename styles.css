@@ -1,1 +1,8 @@
+body{
+    display: flex;
 
+}
+.form-container,.picture-container{
+
+    flex-direction: column;
+}
