@@ -7,7 +7,7 @@ body {
 }
 
 
-.form-container, .picture-container {
+.main-form-container, .picture-container {
     display: flex;
     flex-direction: column;
     height: 100vh;
@@ -35,30 +35,34 @@ body {
 
 }
 
-.form-container {
-
-}
 
 .form-info-container {
     display: flex;
     flex-direction: column;
     gap: 50px;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
+    background-color: #B1B2FF;
+    padding: 20px;
 }
+
+.right-column, .left-column {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
 
 .user-info-form {
     display: flex;
-    flex-wrap: wrap;
-    width: 50%;
-    gap: 10px;
-    justify-content: center;
-    align-items: center;
+    outline: purple solid 3px;
+    gap: 8px;
+    padding: 20px;
 }
 
 .overlaid-image {
     margin-top: -650px;
-    background-color: #AAC4FF;
+    background-color: #181818;
     text-align: center;
     padding: 10px;
     display: flex;
@@ -68,19 +72,36 @@ body {
 
 }
 
+
 .overlaid-image img {
     width: 100px;
     height: 100px;
 }
 
 
-.pic-reference-container{
+.pic-reference-container {
     display: flex;
     margin-top: auto;
     justify-content: center;
     flex-direction: column;
     align-items: center;
     gap: 5px;
+}
+
+.form-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border: solid 2px red;
+}
+
+label {
+    display: flex;
+    justify-content: flex-start;
+    text-align: right;
+    width: 200px;
+    line-height: 26px;
+    margin-bottom: 10px;
 }
 
 a {
