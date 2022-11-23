@@ -14,6 +14,11 @@ body {
 
 }
 
+.main-form-container {
+
+
+}
+
 
 .picture-container {
     width: 40%;
@@ -38,8 +43,7 @@ body {
     justify-content: flex-end;
     align-items: flex-start;
     padding: 20px;
-    outline: peachpuff solid 3px;
-    height: 25vh;
+    height: 40vh;
     background-color: #EEEEEE;
 
 
@@ -64,9 +68,9 @@ body {
 
 .user-info-form {
     display: flex;
-    outline: purple solid 3px;
     gap: 8px;
     padding: 20px;
+
 
 }
 
@@ -102,13 +106,22 @@ body {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    border: solid 2px red;
+    height: 20vh;
+    background-color: #F9F6EE;
+    box-shadow: 0 8px 6px -6px black;
+
 
 }
 
 .submit-container {
-    outline: gold solid 3px;
+    margin-top: 3px;
     display: flex;
+    height: 40vh;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: flex-start;
+    background-color: #EEEEEE;
+    padding: 20px;
 }
 
 label {
@@ -117,9 +130,27 @@ label {
     text-align: right;
     width: 200px;
     line-height: 26px;
-    margin-bottom: 10px;
+
+}
+
+.submit-container a {
+    color: #04AA6D;
+
 }
 
 a {
     color: white;
+}
+
+input[type=submit] {
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    height: 50px;
+    width: 150px;
 }
