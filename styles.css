@@ -14,16 +14,12 @@ body {
 
 }
 
+
 .picture-container {
     width: 40%;
-}
-
-
-.picture-container {
     color: white;
-
-
 }
+
 
 .picture-container img {
     display: flex;
@@ -39,11 +35,24 @@ body {
 .form-info-container {
     display: flex;
     flex-direction: column;
-    gap: 50px;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: flex-start;
-    background-color: #B1B2FF;
     padding: 20px;
+    outline: peachpuff solid 3px;
+    height: 25vh;
+    background-color: #EEEEEE;
+
+
+}
+
+.form-text {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    width: 50%;
+    flex-wrap: wrap;
+    font-weight: bolder;
+
 }
 
 .right-column, .left-column {
@@ -58,6 +67,7 @@ body {
     outline: purple solid 3px;
     gap: 8px;
     padding: 20px;
+
 }
 
 .overlaid-image {
@@ -93,6 +103,12 @@ body {
     justify-content: flex-start;
     align-items: center;
     border: solid 2px red;
+
+}
+
+.submit-container {
+    outline: gold solid 3px;
+    display: flex;
 }
 
 label {
