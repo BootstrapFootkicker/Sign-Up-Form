@@ -42,7 +42,7 @@ body {
     flex-direction: column;
     justify-content: flex-end;
     align-items: flex-start;
-    padding: 20px;
+    padding: 30px 30px 30px 50px;
     height: 40vh;
     background-color: #EEEEEE;
 
@@ -109,6 +109,7 @@ body {
     height: 20vh;
     background-color: #F9F6EE;
     box-shadow: 0 8px 6px -6px black;
+    padding: 30px;
 
 
 }
@@ -121,7 +122,7 @@ body {
     gap: 20px;
     justify-content: flex-start;
     background-color: #EEEEEE;
-    padding: 20px;
+    padding: 30px 30px 30px 50px;
 }
 
 label {
