@@ -40,7 +40,7 @@ body {
 .form-info-container {
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: flex-start;
     padding: 30px 30px 30px 50px;
     height: 40vh;
@@ -154,4 +154,8 @@ input[type=submit] {
     border-radius: 8px;
     height: 50px;
     width: 150px;
+}
+
+input:invalid{
+    border: 2px solid red;
 }
